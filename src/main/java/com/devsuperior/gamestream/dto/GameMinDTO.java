@@ -1,6 +1,7 @@
 package com.devsuperior.gamestream.dto;
 
 import com.devsuperior.gamestream.entities.Game;
+import com.devsuperior.gamestream.projections.GameMinProjection;
 
 public class GameMinDTO {
 	private Long    id;
@@ -19,7 +20,16 @@ public class GameMinDTO {
 		this.imgUrl           = entity.getImgUrl();
 		this.shortDescription = entity.getShortDescription();
 	}
-	
+
+	public GameMinDTO(GameMinProjection projection) {
+		super();
+		this.id               = projection.getId();
+		this.title            = projection.getTitle();
+		this.year             = projection.getYear();
+		this.imgUrl           = projection.getImgUrl();
+		this.shortDescription = projection.getShortDescription();
+	}
+
 	// Getters
 	public Long                  getId() { return id;}
 	public String             getTitle() { return title; }
