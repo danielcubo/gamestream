@@ -20,6 +20,7 @@ public class GameMinDTO {
 		this.shortDescription = entity.getShortDescription();
 	}
 	
+	// Getters
 	public Long                  getId() { return id;}
 	public String             getTitle() { return title; }
 	public Integer             getYear() { return year; }

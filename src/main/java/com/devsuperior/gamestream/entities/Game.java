@@ -46,6 +46,7 @@ public class Game {
 		this.longDescription  = longDescription;
 	}
 
+	// Getters
 	public Long                  getId() { return id;}
 	public String             getTitle() { return title; }
 	public Integer             getYear() { return year; }
@@ -56,6 +57,7 @@ public class Game {
 	public String  getShortDescription() { return shortDescription; }
 	public String   getLongDescription() { return longDescription; }
 
+	// Setters
 	public void               setId(Long    id)               { this.id = id; }
 	public void            setTitle(String  title)            { this.title = title; }
 	public void             setYear(Integer year)             { this.year = year; }
@@ -74,7 +76,10 @@ public class Game {
 		if (this == obj)                  return true;
 		if (obj == null)                  return false;
 		if (getClass() != obj.getClass()) return false;
-		Game other = (Game) obj;          return Objects.equals(id, other.id);
+		
+		Game other = (Game) obj;
+		
+		return Objects.equals(id, other.id);
 	}
 	
 	
