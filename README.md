@@ -1,5 +1,5 @@
 # gamestream - Projeto Clone
-## Semana do Intensivão Java Spring com o Prof. Nélio Alves\n
+## Semana do Intensivão Java Spring com o Prof. Nélio Alves
 ### Aconteceu nos dias 11, 12, 13, 14 e 15 de novembro de 2024
 [![NPM](https://img.shields.io/npm/l/react)]([https://github.com/danielcubo/gamestream/blob/main/LICENSE]) 
 
