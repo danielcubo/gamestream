@@ -1,22 +1,19 @@
 # gamestream - Projeto Clone
 ## Semana do Intensivão Java Spring com o Prof. Nélio Alves\n
 ### Aconteceu nos dias 11, 12, 13, 14 e 15 de novembro de 2024
-[![NPM](https://img.shields.io/npm/l/react)]([https://github.com/devsuperior/sds1-wmazoni/blob/master/LICENSE](https://github.com/danielcubo/gamestream)) 
-
-![Static Badge](https://img.shields.io/badge/:badgeContent)
-
+[![NPM](https://img.shields.io/npm/l/react)]([https://github.com/danielcubo/gamestream/blob/main/LICENSE]) 
 
 # O Projeto Clone
 https://github.com/danielcubo/gamestream
 
 # O Projeto Original
-
 https://github.com/devsuperior/dslist-backend
 
-
-Big Game Survey é uma aplicação full stack web e mobile construída durante a 1ª edição da **Semana DevSuperior** (#sds1), evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
-
-A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
+# Sobre o Intensivão Java Spring
+É uma demonstração de uma aplicação Back-end. Nas vídeo-aulas, o professor Nélio demonstra como funciona uma aplicação backend utilizando o framework Spring Boot.
+Eu tomei a liberdade de renomear o projeto original do professor para "gamestream", apenas pra eu poder saber depois do que se trata o projeto, que é basicamente uma listagem de games.
+Espero que ele não se importe. Nem preciso dizer que o crédito do projeto é todo do professor. Apenas acompanhei as aulas no intuito de ver como funciona a tecnologia.
+Fiquei bastante feliz que a minha aplicação tenha rodado perfeitamente, pois não puxei o projeto do github, fui seguindo passo-a-passo dos vídeos.
 
 ## Layout mobile
 ![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
