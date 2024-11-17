@@ -15,70 +15,35 @@ Eu tomei a liberdade de renomear o projeto original do professor para "gamestrea
 Espero que ele não se importe. Nem preciso dizer que o crédito do projeto é todo do professor. Apenas acompanhei as aulas no intuito de ver como funciona a tecnologia.
 Fiquei bastante feliz que a minha aplicação tenha rodado perfeitamente, pois não puxei o projeto do github, fui seguindo passo-a-passo dos vídeos.
 
-## Layout mobile
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
+## First End-point
+![Web 1](https://github.com/danielcubo/gamestream/blob/main/assets/end-point-1_get-games.png)
 
-## Layout web
-![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
+## Second End-point
+![Web 1](https://github.com/danielcubo/gamestream/blob/main/assets/end-point-2_game-by-id.png)
 
-![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
+## Third End-point
+![Web 1](https://github.com/danielcubo/gamestream/blob/main/assets/end-point-3_list-game-by-genre.png)
 
-## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
+## Fourth End-point
+![Web 1](https://github.com/danielcubo/gamestream/blob/main/assets/ent-point-4_list-game-by-platform.png)
+
+## Fifth End-point
+![Web 1](https://github.com/danielcubo/gamestream/blob/main/assets/end-point-5_update-replacement.png)
 
 # Tecnologias utilizadas
-## Back end
-- Java
+- Java 21
 - Spring Boot
 - JPA / Hibernate
 - Maven
-## Front end
-- HTML / CSS / JS / TypeScript
-- ReactJS
-- React Native
-- Apex Charts
-- Expo
-## Implantação em produção
-- Back end: Heroku
-- Front end web: Netlify
-- Banco de dados: Postgresql
+- Postgresql
+- Docker
 
-# Como executar o projeto
+# Aplicativos de Teste
+- Postman
+- Railway
 
-## Back end
-Pré-requisitos: Java 11
+# Autor do Projeto Clone
 
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto back end
-cd backend
-
-# executar o projeto
-./mvnw spring-boot:run
-```
-
-## Front end web
-Pré-requisitos: npm / yarn
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto front end web
-cd front-web
-
-# instalar dependências
-yarn install
-
-# executar o projeto
-yarn start
-```
-
-# Autor
-
-Wellington Mazoni de Andrade
-
-https://www.linkedin.com/in/wmazoni
+Daniel Cubo
+https://www.linkedin.com/in/danielcubo/
 
